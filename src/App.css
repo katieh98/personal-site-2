@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin:auto;
+  position: relative;
 }
 
 .App-logo {
@@ -35,4 +37,85 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+h6 {
+  text-align: left;
+}
+
+
+.header-img {
+  width: 200px;
+}
+
+.center-navbar {
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  text-align: left;
+}
+
+.container {
+  width: 60%;
+}
+
+@media only screen and (max-width: 760px) {
+  .container {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.company {
+  background-color: rgba(241,203,255);
+  border-style: solid;
+  border-color: rgba(241,203,255);
+  padding: 5px;
+  margin: 3px;
+}
+
+.location {
+  border-color: rgba(225,247,213);
+  background-color: rgba(225,247,213);
+  border-style: solid;
+  padding: 5px;
+  margin: 3px;
+}
+
+.calendar {
+  background-color: rgba(201,201,255);
+  border-color:  rgba(201,201,255);
+  border-style: solid;
+  padding: 5px;
+  margin: 3px;
+}
+
+.skill {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  padding: 5px;
+  margin: 3px;
+}
+
+.footer {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  font-size: 10px;
 }
